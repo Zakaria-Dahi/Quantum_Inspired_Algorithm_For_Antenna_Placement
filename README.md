@@ -2,27 +2,21 @@
 
 **Programmers :shipit:**: Zakaria Abdelmoiz DAHI from the University of Malaga, Spain. 
 
-**About:** This repositiory contains the implementation in [1] that studies the influence of the mapping functions when handling the binary antenna placement using a conitnuous swarm algorithm. We use instances of 14ç to 1000 antennas (representing the city of Malga, Spain) and three types of antennas (Omnidirectional, directional and Squared).
+**About:** This repositiory contains the implementation of the quantum-inspired genetic algorithm devised in [1] for solving the binary antenna placement using a conitnuous swarm algorithm. We use instances of `149 to 1000 antennas` (representing the city of Malga, Spain) and `three types of antennas` (Omnidirectional, directional and Squared).
 
-- [1] **Z.A. DAHI**, C. Mezioud, A. Draa, On the efficiency of the binary flower pollination algorithm: Application on the antenna positioning problem, Applied Soft  Computing, Volume 47, 2016, Pages 395-414, SSN 1568-4946, https://doi.org/10.1016/j.asoc.2016.05.051.
+- [1] **Z.A. DAHI**, C. Mezioud, A. Draa, A quantum-inspired genetic algorithm for solving the antenna positioning problem, Swarm and Evolutionary Computation, Volume 31, 2016, Pages 24-63, ISSN 2210-6502, https://doi.org/10.1016/j.swevo.2016.06.003.
 
 ## **How :green_book:** 
 
-- Depending on the variant you want to execute you just need to navigate to the corresponding foldr: `BFPAs` for the flower pollination algorithm and `PBIL` for the population-based incremental learning.
+- Depending on the variant you want to execute you just need to navigate to the corresponding foldr: `GGA` for the generational genetic algorithm, `PBIL` for the population-based incremental learning and `QIGA` for the quantum-inspired genetic algorithm.
 - Once you have navigated to the folder of the corresponding variant, you just need to execute the file `main.m`.
 
 
 ## **Folders Hiearchy :open_file_folder:**
     
-- `BFPAs`:  this folder includes the binary variants of the flower pollination algorithm.
-
-    - `AM`: This folder contains the variant using `Angle Modulation` mapping technique.
-    - `GVP`: This folder contains the variant using `Great Value Priority` mapping technique.
-    - `Nearest_Integer`: This folder contains the variant using `Nearest integer` mapping technique.
-    - `Normalised`: This folder contains the variant using `Normalisation` mapping technique.
-    - `Quantum`: This folder contains the variant using `Quantum Inspiration`.
-    - `Sigmoid`: This folder contains the variant using `Sigmoid` mapping technique.
-- `PBIL`: This folder contains the code of the `Populatio-Based Incremental Learning`. 
+- `GGA`: This folder contains the generational genetic algorithm.
+- `QIGA`: This folder contains quantum-inspired genetic algorithm.
+- `PBIL`: This folder contains the code of the `Population-Based Incremental Learning`. 
 
 - `Results`: 
     - `Graphical`: the results will be automatically stored as `gif` figures.
@@ -30,8 +24,9 @@
         
 ## **Demo :movie_camera:**
     
-- Please refer to the original paper [HERE](https://www.sciencedirect.com/science/article/pii/S1568494616302617) for more detailed results and discussions.
+- Please refer to the original paper [HERE](https://www.sciencedirect.com/science/article/pii/S2210650216300293) for more detailed results and discussions.
 
-![10-May-2013](https://user-images.githubusercontent.com/68249696/222117553-f78a222e-24a1-4a02-87e7-6ea3f94e0363.gif)
-![10-May-2013](https://user-images.githubusercontent.com/68249696/222117611-8deb8bf7-741d-4307-878d-735fb3d230a7.gif)
-![24-Apr-2014](https://user-images.githubusercontent.com/68249696/222117696-9a1ce573-c083-4335-ac17-581c6292ea95.gif)
+![08-Oct-2014](https://user-images.githubusercontent.com/68249696/222123414-ef9b0af1-1271-42f1-992c-050d05295fc1.gif)
+![05-Apr-2014_174 9807](https://user-images.githubusercontent.com/68249696/222123453-52043b21-bfaa-44d7-8470-7eff65d914ea.gif)
+![01-Nov-2014](https://user-images.githubusercontent.com/68249696/222123511-c42c8f57-a4e6-4ce9-9e29-686ad6ea53e4.gif)
+![01-Oct-2014](https://user-images.githubusercontent.com/68249696/222123560-3e43f77b-d7dc-4242-8c11-7d2d5faa8ab4.gif)
