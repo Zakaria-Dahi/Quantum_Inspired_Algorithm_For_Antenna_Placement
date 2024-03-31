@@ -1,6 +1,6 @@
 # Quick Description
 
-**Programmers :shipit:**: Zakaria Abdelmoiz DAHI from the University of Malaga, Spain. 
+**Programmers :shipit:**: Zakaria Abdelmoiz DAHI. 
 
 **About:** This repositiory contains the implementation of the quantum-inspired genetic algorithm devised in [1] for solving the binary antenna placement using a conitnuous swarm algorithm. We use instances of `149 to 1000 antennas` (representing the city of Malga, Spain) and `three types of antennas` (Omnidirectional, directional and Squared). Evtually, I made an option for testing a fourth strategy where all types of antennas can be used.
 
